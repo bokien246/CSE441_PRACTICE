@@ -1,0 +1,30 @@
+{
+  "MaDM": "DM001",
+  "TenDM": "Danh mục Máy tính",
+  "Sanphams": [
+    {
+      "MaSP": "SP001",
+      "TenSP": "Laptop Dell",
+      "SoLuong": 10,
+      "DonGia": 15000,
+      "ThanhTien": 150000,
+      "Hinh": "laptop_dell.png"
+    },
+    {
+      "MaSP": "SP002",
+      "TenSP": "Laptop HP",
+      "SoLuong": 5,
+      "DonGia": 20000,
+      "ThanhTien": 100000,
+      "Hinh": "laptop_hp.png"
+    },
+    {
+      "MaSP": "SP003",
+      "TenSP": "Laptop Asus",
+      "SoLuong": 7,
+      "DonGia": 17000,
+      "ThanhTien": 119000,
+      "Hinh": "laptop_asus.png"
+    }
+  ]
+}
