@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- Ô nhập liệu Fahrenheit -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fahrenheit"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/edtdoF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Nhập giá trị Fahrenheit"
+        android:padding="10dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Ô nhập liệu Celsius -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Celsius"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/edtdoC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Nhập giá trị Celsius"
+        android:padding="10dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Các nút chuyển đổi -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnfc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Convert To Celsius"
+            android:layout_margin="4dp"/>
+
+        <Button
+            android:id="@+id/btncf"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Convert To Fahrenheit"
+            android:layout_margin="4dp"/>
+    </LinearLayout>
+
+    <!-- Nút Clear -->
+    <Button
+        android:id="@+id/clearButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+
+</LinearLayout>
